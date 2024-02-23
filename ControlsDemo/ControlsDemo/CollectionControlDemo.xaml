@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlsDemo.CollectionControlDemo"
+             Title="CollectionControlDemo">
+
+    <StackLayout>
+
+        <CarouselView IndicatorView="IndicatorView">
+            <CarouselView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Item One</x:String>
+                    <x:String>Item Two</x:String>
+                    <x:String>Item Three</x:String>
+                    <x:String>Item Four</x:String>
+                    <x:String>Item Five</x:String>
+                    <x:String>Item Six</x:String>
+                </x:Array>
+            </CarouselView.ItemsSource>
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                    <Frame Margin="20"
+                           BorderColor="DarkGrey"
+                           CornerRadius="5"
+                           HasShadow="True"
+                           HeightRequest="100"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand">
+                        <Label Text="{Binding .}"/>
+                    </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <ListView HasUnevenRows="True">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Item One</x:String>
+                    <x:String>Item Two</x:String>
+                    <x:String>Item Three</x:String>
+                    <x:String>Item Four</x:String>
+                    <x:String>Item Five</x:String>
+                    <x:String>Item Six</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                    <StackLayout>
+                        <Frame Margin="20"
+                   BorderColor="DarkGrey"
+                   CornerRadius="5"
+                   HasShadow="True"
+                   HeightRequest="100"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand">
+                            <Label Text="{Binding .}"/>
+                        </Frame>
+                    </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <IndicatorView
+               x:Name="IndicatorView"
+               HorizontalOptions="Center"
+               IndicatorColor="LightGray"
+               SelectedIndicatorColor="DarkGray"/>
+
+    </StackLayout>
+</ContentPage>

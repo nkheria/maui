@@ -1,0 +1,1 @@
+C:\Users\azureuser\source\repos\MVVMDemo\MVVMDemo\MVVMDemo.csproj;x64

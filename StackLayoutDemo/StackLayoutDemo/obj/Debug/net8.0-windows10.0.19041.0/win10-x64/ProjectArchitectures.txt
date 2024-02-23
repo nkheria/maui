@@ -1,0 +1,1 @@
+C:\Users\azureuser\source\repos\StackLayoutDemo\StackLayoutDemo\StackLayoutDemo.csproj;x64

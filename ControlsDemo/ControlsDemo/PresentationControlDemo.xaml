@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlsDemo.PresentationControlDemo"
+             Title="PresentationControlDemo">
+    <ScrollView>
+
+        <StackLayout>
+            <BoxView BackgroundColor="Black"
+                 HeightRequest="150"/>
+
+            <Label Text="XAMARIAN" TextColor="Black"
+               FontAttributes="Bold"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"/>
+
+            <Ellipse Fill="DarkBlue"
+                 Stroke="LightBlue"
+                 StrokeThickness="10"
+                 HeightRequest="200"
+                 HorizontalOptions="Center"
+                 WidthRequest="200"/>
+
+            <Line Stroke="Black"
+              X1="0"
+              Y1="0"
+              X2="100"
+              Y2="50"
+              StrokeThickness="10"/>
+
+            <Rectangle Fill="DarkRed"
+                   Stroke="Black"
+                   StrokeThickness="10"
+                   HeightRequest="50"
+                   HorizontalOptions="End"
+                   WidthRequest="150"
+                   RadiusX="10"
+                   RadiusY="10"/>
+
+            <Ellipse Fill="DarkBlue"
+                 Stroke="LightBlue"
+                 StrokeThickness="10"
+                 HeightRequest="200"
+                 HorizontalOptions="Center"
+                 WidthRequest="200"/>
+
+            <Line Stroke="Black"
+              X1="0"
+              Y1="0"
+              X2="100"
+              Y2="50"
+              StrokeThickness="10"/>
+
+            <Rectangle Fill="DarkRed"
+                   Stroke="Black"
+                   StrokeThickness="10"
+                   HeightRequest="50"
+                   HorizontalOptions="End"
+                   WidthRequest="150"
+                   RadiusX="10"
+                   RadiusY="10"/>
+
+            <Ellipse Fill="DarkBlue"
+                 Stroke="LightBlue"
+                 StrokeThickness="10"
+                 HeightRequest="200"
+                 HorizontalOptions="Center"
+                 WidthRequest="200"/>
+
+            <Line Stroke="Black"
+              X1="0"
+              Y1="0"
+              X2="100"
+              Y2="50"
+              StrokeThickness="10"/>
+
+            <Rectangle Fill="DarkRed"
+                   Stroke="Black"
+                   StrokeThickness="10"
+                   HeightRequest="50"
+                   HorizontalOptions="End"
+                   WidthRequest="150"
+                   RadiusX="10"
+                   RadiusY="10"/>
+        </StackLayout>
+
+    </ScrollView>
+    
+</ContentPage>

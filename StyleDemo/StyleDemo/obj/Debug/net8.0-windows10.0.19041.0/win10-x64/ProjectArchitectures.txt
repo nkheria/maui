@@ -1,0 +1,1 @@
+C:\Users\azureuser\source\repos\StyleDemo\StyleDemo\StyleDemo.csproj;x64

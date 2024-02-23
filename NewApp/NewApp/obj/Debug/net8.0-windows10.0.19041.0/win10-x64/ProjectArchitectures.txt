@@ -1,0 +1,1 @@
+C:\Users\azureuser\source\repos\NewApp\NewApp\NewApp.csproj;x64

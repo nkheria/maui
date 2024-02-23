@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StyleDemo.StyleView"
+             Title="StyleView">
+
+    <ContentPage.Resources>
+
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="Title"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            <Setter Property="TextColor" Value="{AppThemeBinding Light=DarkBlue, Dark=White}"/>
+            <Setter Property="FontSize" Value="Title"/>
+        </Style>
+        
+        <Style TargetType="Button" Class="ButtonText">
+            <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+
+        <Style TargetType="Button" Class="LightButton">
+            <Setter Property="BackgroundColor" Value="LightGrey"/>
+            <Setter Property="TextColor" Value="black"/>
+        </Style>
+
+        <Style TargetType="Button" Class="DarkButton">
+            <Setter Property="BackgroundColor" Value="Purple"/>
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+
+
+    </ContentPage.Resources>
+    <VerticalStackLayout>
+        <Label Text="Welcome!"/>
+        <Button Text="Click to get started!" StyleClass="ButtonText,DarkButton"/>
+        <Button Text="Click to get started!" StyleClass="ButtonText,LightButton"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ControlsDemo
+build_property.ProjectDir = C:\Users\azureuser\source\repos\ControlsDemo\ControlsDemo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/azureuser/source/repos/ControlsDemo/ControlsDemo/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/azureuser/source/repos/ControlsDemo/ControlsDemo/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/azureuser/source/repos/ControlsDemo/ControlsDemo/CollectionControlDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.CollectionControlDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = CollectionControlDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = CollectionControlDemo.xaml
+
+[C:/Users/azureuser/source/repos/ControlsDemo/ControlsDemo/CommandsControlDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.CommandsControlDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = CommandsControlDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = CommandsControlDemo.xaml
+
+[C:/Users/azureuser/source/repos/ControlsDemo/ControlsDemo/InputControlDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.InputControlDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = InputControlDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = InputControlDemo.xaml
+
+[C:/Users/azureuser/source/repos/ControlsDemo/ControlsDemo/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/azureuser/source/repos/ControlsDemo/ControlsDemo/PresentationControlDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.PresentationControlDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = PresentationControlDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = PresentationControlDemo.xaml
+
+[C:/Users/azureuser/source/repos/ControlsDemo/ControlsDemo/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/azureuser/source/repos/ControlsDemo/ControlsDemo/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ControlsDemo.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
