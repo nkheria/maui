@@ -1,0 +1,1 @@
+C:\Users\azureuser\source\repos\MAUICalculator\MAUICalculator\MAUICalculator.csproj;x64
